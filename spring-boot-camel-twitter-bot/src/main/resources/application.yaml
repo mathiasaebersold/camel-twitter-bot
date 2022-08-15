@@ -1,0 +1,9 @@
+camel:
+  springboot:
+    main-run-controller: true
+  component:
+    twitter-directmessage:
+      access-token: "${TWITTER_ACCESS_TOKEN}"
+      access-token-secret: "${TWITTER_ACCESS_TOKEN_SECRET}"
+      consumer-key: "${TWITTER_CONSUMER_KEY}"
+      consumer-secret: "${TWITTER_CONSUMER_KEY_SECRET}"
